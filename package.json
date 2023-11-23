@@ -19,6 +19,10 @@
     "web3uikit": "^1.0.4",
     "@toruslabs/openlogin-jrpc": "4.0.0"
   },
+  "resolutions": {
+    "@toruslabs/openlogin-jrpc": "4.0.0",
+    "@toruslabs/openlogin-utils": "4.0.0"
+  },  
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "eslint": "8.13.0",
