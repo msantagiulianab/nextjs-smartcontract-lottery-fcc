@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"16@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/16/-/16-0.0.2.tgz#1e1f67a1633e1800c167e0e703dff0890c3e153a"
-  integrity sha512-AhG4lpdn+/it+U5Xl1bm5SbaHYTH5NfU/vXZkP7E7CHjtVtITuFVZKa3AZP3gN38RDJHYYtEqWmqzCutlXaR7w==
-  dependencies:
-    numeric "^1.2.6"
-
 "@aashutoshrathi/word-wrap@^1.2.3":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
@@ -1124,10 +1117,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@remix-run/router@1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.12.0.tgz#e89b64b6fa97a8a5b740a4c38c2904b80f1f229a"
-  integrity sha512-2hXv036Bux90e1GXTWSMfNzfDDK8LA8JYEWfyHxzvwdp6GyoWEovKc9cotb3KCKmkdwsIBuFGX7ScTWyiHv7Eg==
+"@remix-run/router@1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.13.0.tgz#7e29c4ee85176d9c08cb0f4456bff74d092c5065"
+  integrity sha512-5dMOnVnefRsl4uRnAdoWjtVTdh8e6aZqgM4puy9nmEADH72ck+uXwzpJLEKE9Q6F8ZljNewLgmTfkxUrBdv4WA==
 
 "@rushstack/eslint-patch@1.0.8":
   version "1.0.8"
@@ -1265,6 +1258,20 @@
   dependencies:
     "@toruslabs/tweetnacl-js" "^1.0.3"
 
+"@toruslabs/openlogin-jrpc@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@toruslabs/openlogin-jrpc/-/openlogin-jrpc-4.0.0.tgz#2169d4aa309f693fb380a8f9d675a1fc05b6d287"
+  integrity sha512-Cfs7wZo4lJW3BoMst0LSggm3AbKkB/PzyGGlIXJYeT1+5hFDOLORmqOdyDuUcsgD5xXBPjLeUTVvyVfuTd1reg==
+  dependencies:
+    "@toruslabs/openlogin-utils" "^4.0.0"
+    end-of-stream "^1.4.4"
+    eth-rpc-errors "^4.0.3"
+    events "^3.3.0"
+    fast-safe-stringify "^2.1.1"
+    once "^1.4.0"
+    pump "^3.0.0"
+    readable-stream "^3.6.2"
+
 "@toruslabs/openlogin-jrpc@^2.0.0", "@toruslabs/openlogin-jrpc@^2.1.0", "@toruslabs/openlogin-jrpc@^2.13.0":
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/@toruslabs/openlogin-jrpc/-/openlogin-jrpc-2.13.0.tgz#aae71e7c9b0161bc14baf3fc696605d74e0b99f4"
@@ -1325,7 +1332,7 @@
     keccak "^3.0.3"
     randombytes "^2.1.0"
 
-"@toruslabs/openlogin-utils@^4.7.0":
+"@toruslabs/openlogin-utils@^4.0.0", "@toruslabs/openlogin-utils@^4.7.0":
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/@toruslabs/openlogin-utils/-/openlogin-utils-4.7.0.tgz#741d6ba1c0754b59a182b1c6dd8d0263695ed980"
   integrity sha512-w6XkHs4WKuufsf/zzteBzs4EJuOknrUmJ+iv5FZ8HzIpMQeL/984CP8HYaFSEYkbGCP4ydAnhY4Uh0QAhpDbPg==
@@ -1424,9 +1431,9 @@
   integrity sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==
 
 "@types/node@*":
-  version "20.9.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.3.tgz#e089e1634436f676ff299596c9531bd2b59fffc6"
-  integrity sha512-nk5wXLAXGBKfrhLB0cyHGbSqopS+nz0BUgZkUQqSHSSgdee0kssp1IAqlQOu333bW+gMNs2QREx7iynm19Abxw==
+  version "20.9.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.4.tgz#cc8f970e869c26834bdb7ed480b30ede622d74c7"
+  integrity sha512-wmyg8HUhcn6ACjsn8oKYjkN/zUzQeNtMy44weTJSM6p4MMzEOuKbA3OjJ267uPCOW7Xex9dyrNTful8XTQYoDA==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2585,9 +2592,9 @@ camelcase@^5.0.0:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001283, caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001541:
-  version "1.0.30001563"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001563.tgz#aa68a64188903e98f36eb9c56e48fba0c1fe2a32"
-  integrity sha512-na2WUmOxnwIZtwnFI2CZ/3er0wdNzU7hN+cPYz/z2ajHThnkWjNBOpEPP4n+4r2WPM847JaMotaJE3bnfzjyKw==
+  version "1.0.30001564"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001564.tgz#eaa8bbc58c0cbccdcb7b41186df39dd2ba591889"
+  integrity sha512-DqAOf+rhof+6GVx1y+xzbFPeOumfQnhYzVnZD6LAXijR77yPtm9mfOcqOnT3mpnJiZVT+kwLAFnRlZcIz+c6bg==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -3000,9 +3007,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.4.535:
-  version "1.4.589"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.589.tgz#3fc83c284ed8f1f58e0cb3c664c8ebcb4d0b42fb"
-  integrity sha512-zF6y5v/YfoFIgwf2dDfAqVlPPsyQeWNpEWXbAlDUS8Ax4Z2VoiiZpAPC0Jm9hXEkJm2vIZpwB6rc4KnLTQffbQ==
+  version "1.4.592"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.592.tgz#1ffd49ba3da3da3077ea20014b066c910d50c913"
+  integrity sha512-D3NOkROIlF+d5ixnz7pAf3Lu/AuWpd6AYgI9O67GQXMXTcCP1gJQRotOq35eQy5Sb4hez33XH1YdTtILA7Udww==
 
 elliptic@6.5.4, elliptic@^6.5.2, elliptic@^6.5.3, elliptic@^6.5.4:
   version "6.5.4"
@@ -3489,7 +3496,15 @@ ethereum-cryptography@^2.0.0, ethereum-cryptography@^2.1.2:
     "@scure/bip32" "1.3.1"
     "@scure/bip39" "1.2.1"
 
-ethereumjs-abi@^0.6.8, "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
+ethereumjs-abi@^0.6.8:
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/ethereumjs-abi/-/ethereumjs-abi-0.6.8.tgz#71bc152db099f70e62f108b7cdfca1b362c6fcae"
+  integrity sha512-Tx0r/iXI6r+lRsdvkFDlut0N08jWMnKRZ6Gkq+Nmw75lZe4e6o3EkSnkaBP5NF6+m5PTGAr9JP43N3LyeoglsA==
+  dependencies:
+    bn.js "^4.11.8"
+    ethereumjs-util "^6.0.0"
+
+"ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version "0.6.8"
   resolved "git+https://github.com/ethereumjs/ethereumjs-abi.git#ee3994657fa7a427238e6ba92a84d0b529bbcde0"
   dependencies:
@@ -4964,11 +4979,6 @@ number-to-bn@1.7.0:
     bn.js "4.11.6"
     strip-hex-prefix "1.0.0"
 
-numeric@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/numeric/-/numeric-1.2.6.tgz#765b02bef97988fcf880d4eb3f36b80fa31335aa"
-  integrity sha512-avBiDAP8siMa7AfJgYyuxw1oyII4z2sswS23+O+ZfV28KrtNzy0wxUFwi4f3RyM4eeeXNs1CThxR7pb5QQcMiw==
-
 oauth-sign@~0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
@@ -5429,15 +5439,7 @@ react-blockies@^1.4.1:
   dependencies:
     prop-types "^15.5.10"
 
-react-dom@18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.0.0.tgz#26b88534f8f1dbb80853e1eabe752f24100d8023"
-  integrity sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==
-  dependencies:
-    loose-envify "^1.1.0"
-    scheduler "^0.21.0"
-
-react-dom@^17:
+react-dom@17.0.2, react-dom@^17:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -5474,28 +5476,21 @@ react-qr-code@^2.0.7:
     qr.js "0.0.0"
 
 react-router-dom@^6.3.0:
-  version "6.19.0"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.19.0.tgz#ee807e36ae7dd954db7a3f770e38b7cc026c66a8"
-  integrity sha512-N6dWlcgL2w0U5HZUUqU2wlmOrSb3ighJmtQ438SWbhB1yuLTXQ8yyTBMK3BSvVjp7gBtKurT554nCtMOgxCZmQ==
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.20.0.tgz#7b9527a1e29c7fb90736a5f89d54ca01f40e264b"
+  integrity sha512-CbcKjEyiSVpA6UtCHOIYLUYn/UJfwzp55va4yEfpk7JBN3GPqWfHrdLkAvNCcpXr8QoihcDMuk0dzWZxtlB/mQ==
   dependencies:
-    "@remix-run/router" "1.12.0"
-    react-router "6.19.0"
+    "@remix-run/router" "1.13.0"
+    react-router "6.20.0"
 
-react-router@6.19.0:
-  version "6.19.0"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.19.0.tgz#6d5062fa33495859daca98d86292ab03b037a9ca"
-  integrity sha512-0W63PKCZ7+OuQd7Tm+RbkI8kCLmn4GPjDbX61tWljPxWgqTKlEpeQUwPkT1DRjYhF8KSihK0hQpmhU4uxVMcdw==
+react-router@6.20.0:
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.20.0.tgz#4275a3567ecc55f7703073158048db10096bb539"
+  integrity sha512-pVvzsSsgUxxtuNfTHC4IxjATs10UaAtvLGVSA1tbUE4GDaOSU1Esu2xF5nWLz7KPiMuW8BJWuPFdlGYJ7/rW0w==
   dependencies:
-    "@remix-run/router" "1.12.0"
+    "@remix-run/router" "1.13.0"
 
-react@18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-18.0.0.tgz#b468736d1f4a5891f38585ba8e8fb29f91c3cb96"
-  integrity sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==
-  dependencies:
-    loose-envify "^1.1.0"
-
-react@^17:
+react@17.0.2, react@^17:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
@@ -5681,9 +5676,9 @@ rlp@^2.0.0, rlp@^2.2.3, rlp@^2.2.4:
     bn.js "^5.2.0"
 
 rpc-websockets@^7.5.1:
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/rpc-websockets/-/rpc-websockets-7.7.0.tgz#3f2eb1ce91a0a4a63200f3f78957d3f8ced17714"
-  integrity sha512-XYMzjxbDI0A9A2wwrx5/RswnZC53Av3bp5IOV9QnUdTuJ7Tstv4+V7vIe37pYYOn2wKYkbzkaeB8+I9oLztLOA==
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/rpc-websockets/-/rpc-websockets-7.8.0.tgz#1bcf571f65c51803e81f0824e9540a0da35a5287"
+  integrity sha512-AStkq6KDvSAmA4WiwlK1pDvj/33BWmExTATUokC0v+NhWekXSTNzXS5OGXeYwq501/pj6lBZMofg/h4dx4/tCg==
   dependencies:
     "@babel/runtime" "^7.17.2"
     eventemitter3 "^4.0.7"
@@ -5753,13 +5748,6 @@ scheduler@^0.20.2:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-
-scheduler@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.21.0.tgz#6fd2532ff5a6d877b6edb12f00d8ab7e8f308820"
-  integrity sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==
-  dependencies:
-    loose-envify "^1.1.0"
 
 scrypt-js@3.0.1, scrypt-js@^3.0.0:
   version "3.0.1"
